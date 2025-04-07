@@ -71,7 +71,7 @@ function findUnicorn(pickupLocation) {
 
 async function recordRide(rideId, username, unicorn) {
     const params = {
-        TableName: 'Rides2024,
+        TableName: 'Rides2024',
         Item: {
             RideId: rideId,
             User: username,
